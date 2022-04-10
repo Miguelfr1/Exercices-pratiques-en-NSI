@@ -1,10 +1,8 @@
 def nombres_puis_double(valeurs) :
     liste = []
-    n = 0
     for i in range(len(valeurs) - 1) :
         if 2 * valeurs[i] == valeurs[i + 1] :
             liste.append((valeurs[i], valeurs[i+1]))
-            n += 1
     return liste
 
 # tests
